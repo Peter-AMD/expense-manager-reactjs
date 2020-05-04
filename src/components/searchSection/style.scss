@@ -1,0 +1,35 @@
+.searchSection-wrapper {
+  display: grid;
+  row-gap: 1rem;
+  background: #2CB0B3;
+  > .circular.ui.icon.button {
+    position: absolute;
+    left: 1rem;
+    background: #82C8C8;
+    color: #fff;
+  }
+  > .icon.input {
+    width: 60%;
+    justify-self: center;
+    
+    > .prompt {
+      color: #fff;
+      border: none;
+      text-align: center;
+      background: #2CB0B3;
+
+      &::placeholder {
+        color: #fff !important;
+      }
+    }
+    > .search.icon {
+      color: #fff;
+    }
+  }
+  > .teal.button {
+    width: 30%;
+    margin-bottom: 1.5rem;
+    justify-self: center;
+    background: #82C8C8;
+  }
+}

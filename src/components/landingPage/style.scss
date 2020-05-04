@@ -1,0 +1,33 @@
+.landingpage-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  background: #64BCBE;
+
+  > .landingpage-text {
+    color: #fff;
+    cursor: default;
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 9rem;
+    width: min-content;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 1rem;
+    justify-self: center;
+  }
+  > .next-button {
+      width: 6rem;
+      height: 6rem;
+      font-size: 2rem;
+      justify-self: center;
+
+      > .arrow {
+        top: 0.3rem;
+        right: 1.8rem;
+        position: relative;
+      }
+  }
+}
+
+

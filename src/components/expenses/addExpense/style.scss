@@ -1,0 +1,23 @@
+.addExpense-wrapper {
+  > .ui.form {
+    display: grid;
+    row-gap: 1rem;
+    > .ui.dividing.header {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      > .expenses {
+        text-align: center;
+      }
+      > .submit-button {
+        background: none;
+        text-align: right;
+        color: #4183C4;
+        font-size: 1.5rem;
+        padding-top: 0;
+      }
+    }
+    > .textarea {
+      display: grid;
+    }
+  }
+}
